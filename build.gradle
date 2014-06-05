@@ -20,7 +20,7 @@ jar {
     manifest {
         attributes 'Implementation-Title': 'KataBankOCR',
                    'Implementation-Version': version,
-                   'Main-Class': 'com.kwedinger.KataBankOCR'
+                   'Main-Class': 'com.katabankocr.KataBankOCR'
     }
     // This will include compile time deps inside the resultant jar
     from {

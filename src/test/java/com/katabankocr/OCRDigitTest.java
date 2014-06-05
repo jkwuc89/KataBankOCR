@@ -1,12 +1,10 @@
 package com.katabankocr;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
-import org.junit.After;
-import org.junit.Before;
 import org.junit.Test;
-
-import com.katabankocr.OCRDigit;
 
 /**
  * OCRDigitTest
@@ -63,20 +61,6 @@ public class OCRDigitTest {
     " _ " + 
     "|_|" + 
     " _|";
-
-    /**
-     * @throws java.lang.Exception
-     */
-    @Before
-    public void setUp() throws Exception {
-    }
-
-    /**
-     * @throws java.lang.Exception
-     */
-    @After
-    public void tearDown() throws Exception {
-    }
 
     @Test
     public void testValidDigits() {
